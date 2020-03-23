@@ -1,0 +1,97 @@
+
+header {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #000080;
+  color: white;
+  height: 75px;
+}
+
+
+nav,
+nav ul,
+nav ul li{
+  margin: 0;
+  padding: 5px;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-items: center;
+  .last{
+    margin: 0;
+  }
+}
+
+.createAccountForm {
+
+  margin: auto;
+  margin-top: 25px;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #000080;
+  color: white;
+
+
+}
+
+form {
+  margin-top: 50px;
+
+
+}
+
+form ul li{
+  margin-right: 30px;
+  list-style-type: none;
+  padding: 10px;
+
+}
+
+.App{
+  background-image: url('./images/cspPicture.jpg');
+  width: 100%;
+  height: 1250px;
+
+}
+
+.foot{
+  height: 50px;
+  color: white;
+  background-color: #000080;
+  margin-top: 730px;
+  align-content: center;
+}
+
+.createAccountForm label{
+  align-items: right;
+  margin: 0;
+  float: left;
+
+}
+
+
+.createAccountForminput input{
+
+
+  margin: 0 auto;
+
+}
+
+.createAccountForm li{
+  padding-top:30px;
+
+
+}
+
+.createAccountForm li input{
+  float: right;
+}
